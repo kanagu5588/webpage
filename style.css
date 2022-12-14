@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+header{
+    background-color: aquamarine;
+    position: relative;
+    height: 90px;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 15px;
+    left: 20px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+}
+p{
+    position: absolute;
+    top: 28px;
+    left: 100px;
+    text-transform: capitalize;
+    font-size: x-large;
+    color: rgb(176, 7, 7);
+}
+.navlinks{
+    position: absolute;
+    height: 70px;
+    width: 70%;
+    top: 10px;
+    left: 50%;
+    
+    
+}
+li{
+    display: inline-block;
+    
+}
+a{
+    
+    text-decoration: none;
+    display: inline-block;
+    top: 24px;
+    left: 310px;
+    position: relative;
+    padding-left: 20px;   
+}
+
